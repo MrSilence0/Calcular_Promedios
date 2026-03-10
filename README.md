@@ -1,4 +1,4 @@
-# 📊 API de Cálculo de Promedios con Flask
+# API de Cálculo de Promedios con Flask
 
 Este proyecto es una **API REST** desarrollada para la materia de **Desarrollo Web Orientado a Servicios** (5to Cuatrimestre). Permite procesar calificaciones enviadas mediante formato JSON y calcular el promedio de forma automática.
 
@@ -47,8 +47,12 @@ Después de realizar la petición, puedes verificar el resultado visualmente en 
 ![Vista del uso del método GET desde el navegador.](images/Navegador.png)
 
 ## Estructura del Proyecto
-app.py: Archivo principal con las rutas de Flask.
-venv/: Entorno virtual de Python.
-images/
-Postman.png / Navegador.png: Capturas de pantalla de evidencia.
-README.md: Documentación del proyecto.
+
+```bash
+api_promedio/
+├── venv/                 # Entorno virtual (excluido en .gitignore)
+├── images/               # Carpeta de recursos visuales
+│   ├── Postman.png       # Captura de pantalla de la petición POST
+│   └── Navegador.png     # Captura de pantalla del resultado
+├── app.py                # Archivo principal con las rutas de Flask
+└── README.md             # Documentación del proyecto
